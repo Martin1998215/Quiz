@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    background: lightgray;
+    margin: 10px 0;
+}
+
+.container {
+  width: 94%;
+  margin: 10px 3%;
+  background: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 1px 1px 5px gray;
+    border-bottom: 3px solid blue;
+}
+.test {
+    width: 97%;
+    margin: 10px auto ;
+}
+.cover {
+    width: 97%;
+    height: 320px;
+    background: white;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 17px;
+}
+/* #question {
+    margin:10px 0 100px 0;
+} */
+ul{
+    list-style-type: none;
+    /* margin: 100px 0 20px 0; */
+}
+ul li {
+    padding: 5px 0;
+    font-style: italic;
+}
+ul li label {
+    cursor: pointer;
+
+}
+#enter {
+    width: 97%;
+    margin:10px 1.5%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: red;
+    opacity: 0.6;
+    color: black;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 600px){
+    .container {
+        width: 80%;
+        margin: 10px 10%;
+    }
+}
+
+@media only screen and (min-width: 776px){
+    .container {
+        width: 70%;
+        margin: 10px 15%;
+    }
+  
+}
+
+@media only screen and (min-width: 992px){
+    .container {
+        width: 60%;
+        margin: 10px 20%;
+    }
+  
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2 class='test'>Time: <span id='timer'>60</span></h2>
+        <div>
+            <div class="cover">
+                <h4 id="question"></h4>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answer" />
+                        <label id="a_text" for="a"></label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answer" />
+                        <label id="b_text" for="b"></label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answer" />
+                        <label id="c_text" for="c"></label>
+                    </li>
+                </ul>
+            </div>
+            <button type="submit" id="enter">Submit</button>
+        </div>
+
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
